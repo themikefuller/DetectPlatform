@@ -7,11 +7,11 @@ function DetectPlatform() {
   }
 
   if (navigator.userAgent.match(/Android/)) {
-    result = "Android";
+    result = "android";
   }
 
   if (navigator.userAgent.match(/iPhone|iPad/)) {
-    result = "iOS";
+    result = "ios";
   }
 
   return result;
